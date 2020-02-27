@@ -116,6 +116,7 @@ p {
 
 /*===== All Button Style =====*/
 .main-btn {
+  margin-right: 20px;
   display: inline-block;
   font-weight: 500;
   text-align: center;
@@ -736,6 +737,12 @@ p {
     left: 0;
     bottom: 0;
     z-index: 11; }
+
+    .header-image::hover {
+      background-image: url("assets/images/banner/hero2.png");
+      z-index: 1;
+
+    }
   .header-image img {
     position: relative;
     z-index: 5; }
