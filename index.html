@@ -9,6 +9,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/typer.js"></script> 
+    <script src="assets/js/rhplox.js"></script> 
+    <style type="text/css"></style>
+
     <!--====== Title ======-->
     <title>Portifólio pessoal - Victor Hugo</title>
 
@@ -29,6 +34,7 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+
 
 
 
@@ -79,9 +85,9 @@
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active"><a class="page-scroll" href="#home">Ínicio</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#about">Sobre</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#service">Jobs</a></li>
+                                    <!-- <li class="nav-item"><a class="page-scroll" href="#service">Jobs</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#work">Portfolio</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#blog">Dicas</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#blog">Dicas</a></li> -->
                                     <li class="nav-item"><a class="page-scroll" href="#contact">Contato</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
@@ -129,6 +135,11 @@
                             <h4 class="sub-title">Oi, eu sou o</h4>
                             <h1 class="title">Victor Hugo </h1>
                             
+                            <!--typer script começa-->
+                                    <div class="about"  onload="typeWriter();">
+                                        <p id="text"></p>
+                                    </div>
+                            <!--typer script-->
 
                             <p>e sou um <strong>Web Developer</strong>. Prazer em conhece-lo.</p>
                             <p><i>Clique abaixo para <strong>visualizar</strong> meu portifólio </i></p>
@@ -172,10 +183,13 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center">
                         <h2 class="title">Sobre Mim</h2>
+                       <!-- <p class="line-1 anim-typewriter">Sobre mim</p>-->
+
                         <p>Tenho 27 anos, trabalho com Web Design há 5 anos. É incrível ver todas as linhas de código se tornando em algo incrível</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
+            
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-content mt-50">
@@ -476,6 +490,7 @@
 
                 </div>
             </div> <!-- row -->
+            <p id="rhplease"></p>
         </div> <!-- container -->
     </section>
 
