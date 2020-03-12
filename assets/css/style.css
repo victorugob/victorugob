@@ -1823,5 +1823,24 @@ p.form-message.success, p.form-message.error {
   font-size: 30px;
   text-shadow: 0px 0px 10px green, 0px 0px 5px green;
 }
+@media screen and (max-width: 429px) {
+  .main-btn {
+    margin-top: 15px;
+    display: inherit;
+  }
+}
+  @media screen and (max-width: 630px) {
+    img.webme {
+      width: 55%;
+      display: block;
+      margin: auto;
+      padding-top: 25vh;
+    }
+  }
 
+  @media screen and (min-width: 629px) {
+    img.webme {
+      display: none;
+    }
+  }
 /*# sourceMappingURL=style.css.map */
