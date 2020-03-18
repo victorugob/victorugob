@@ -3,7 +3,7 @@ $(document).ready(() => {
         
     var i = 0;
             var w = window.matchMedia("(min-width: 768px)");
-            var txt = ' document.write("hire me, please") ';
+            var txt = ' E sou um Desenvolvedor Web ';
             var speed = 120;
             function typeWriter() {
                 if (i < txt.length) {

@@ -42,7 +42,9 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ }
 
 img {
   max-width: 100%; }
@@ -611,12 +613,16 @@ p {
           height: 45px; }
 
 .header-content {
-  height: 730px;
+  height: 100vh;
   width: 100%;
   margin-top: 90px;
   position: relative;
   overflow: hidden;
-  background-color: #fbfbfb; }
+  margin: auto;
+  background-color: #754ef9;
+  
+  /* background-color: #fbfbfb;  */
+}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-content {
       height: 550px; } }
@@ -793,7 +799,7 @@ p {
       content: '';
       width: 100%;
       height: 2px;
-      background-color: #754ef9;
+      background-color: white;
       left: -102.5%;
       top: 50%;
       -webkit-transform: translateY(-50%);
@@ -813,7 +819,7 @@ p {
         height: 40px;
         line-height: 40px;
         border-radius: 50%;
-        border: 1px solid #ccc;
+        border: 1px solid white;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -821,8 +827,8 @@ p {
         transition: all 0.3s ease-out 0s;
         text-align: center; }
         .header-social .header-social-icon ul li a:hover {
-          color: #fff;
-          background-color: #754ef9;
+          color: #754ef9;
+          background-color: white;
           border-color: #754ef9; }
 
 /*===========================
@@ -838,7 +844,7 @@ p {
     padding-bottom: 80px; } }
 
 .about-content .about-title {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
   padding-bottom: 15px; }
 .about-content ul {
@@ -1829,7 +1835,7 @@ p.form-message.success, p.form-message.error {
     display: inherit;
   }
 }
-  @media screen and (max-width: 630px) {
+  @media screen and (max-width: 991px) {
     img.webme {
       width: 55%;
       display: block;
@@ -1838,9 +1844,127 @@ p.form-message.success, p.form-message.error {
     }
   }
 
-  @media screen and (min-width: 629px) {
+  @media screen and (min-width: 991px) {
     img.webme {
       display: none;
     }
   }
+
+  .about {
+    margin: auto;
+    display: block;
+  }
+
+.oi{
+  margin: auto;
+  color: white;
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
+.oi h1 {
+  color: white;
+  font-size: 40px
+}
+.typer {
+  display: block;
+}
+
+h1.hero1 {
+  margin-bottom: 10%;
+}
+
+.main-btn-h {
+  margin-right: 20px;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #754ef9;
+  padding: 0 40px;
+  font-size: 15px;
+  line-height: 48px;
+  border-radius: 50px;
+  color: #754ef9;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  background-color: white;
+  text-transform: uppercase; 
+  margin-top: 15px;
+  position: relative;
+}
+  .main-btn-h:hover {
+    background-color: #754ef9;
+    color: #fff;
+    border-color: #fff; 
+  }
+#jump-intro {
+  margin-right: 3%;
+  float: right;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 992px) {
+  .header-area {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .header-content.d-flex.align-items-center {
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .header-area-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .skills-bar {
+    flex: 0 0 90% !important;
+    margin-left: 0 !important;
+    padding-top: 15%;
+  }
+  .about-img {
+    display: none;
+  }
+}
+
+.skills-bar {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100%;
+  float: right;
+  position: relative;
+  margin-left: 50%;
+  margin-top: -20%;
+}
+
+.about-side {
+  max-width: 50%;
+}
+
+.about-img {
+  max-width: 55%;
+  margin-left: 20%;
+}
+
+.objetivos {
+  margin-top: 20%
+}
