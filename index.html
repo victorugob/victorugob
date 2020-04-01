@@ -36,6 +36,7 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
 
 
 
@@ -223,7 +224,7 @@
                 <div class="col-lg-6">
                     <div class="about-content mt-50">
                         <h4 class="about-title">Sobre</h4>
-                        <p>Victor Hugo, 27 anos, paulista e atuando na área de desenvolvimento web há mais ou menos 3 anos. Falo um pouco sobre meu experiência <a href="">aqui</a></p>
+                        <p>Victor Hugo, 27 anos, paulista e atuando na área de desenvolvimento web há mais ou menos 3 anos. Falo um pouco sobre meu experiência <a onclick="erro()" href="#">aqui</a></p>
                         <p>Há algum tempo atrás resolvi que só focaria em algumas peças importantes para minha carreira, há mais de 2 anos venho estudando e me esforçando muito para dominar uma Stack que consegue abraçar tudo que um Web Developer precisa</a></p>
                         <br>
                         <div class="objetivos">
@@ -494,7 +495,7 @@
 
                 </div>
             </div> <!-- row -->
-            <p id="rhplease"></p>
+
         </div> <!-- container -->
     </section>
 
@@ -517,7 +518,6 @@
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
-
 
     <!--====== jquery js ======-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
@@ -546,6 +546,12 @@
     <!--====== Scrolling js ======-->
     <!-- <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script> -->
+
+    <script>
+        function erro() {
+	 document.getElementById('erro').innerHTML = alert('Ops, ainda não inseri no meu portifólio!');
+}
+    </script>
 
     <!--====== Validator js ======-->
     <script src="assets/js/validator.min.js"></script>
