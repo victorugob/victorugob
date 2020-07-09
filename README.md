@@ -1,7 +1,5 @@
-#  Web Portifólio Victor Hugo Brito 
+#  Hi, I'm Victor Hugo
+## I work as Web Developer and I spend most of my time building websites as hobby.
 
-## Aqui mostro algumas tecnologias que trabalho, alguns trabalhos em desenvolvimento e até mesmo alguns trabalhos já feitos
- 
- ### Estarei atualizando assim que puder
 
- >>>>>>> master
+# Check my [Web Portfolip] (https://victorugob.github.io/victorugob/)
