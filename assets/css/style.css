@@ -619,7 +619,8 @@ p {
   position: relative;
   overflow: hidden;
   margin: auto;
-  background-color: #754ef9;
+  //background-color: #754ef9;
+  background-color: rgb(32, 32, 36);
   
   /* background-color: #fbfbfb;  */
 }
@@ -1867,6 +1868,8 @@ p.form-message.success, p.form-message.error {
 }
 .typer {
   display: block;
+  text-shadow: -2px 2px 2px #fff;
+  color: #754ef9 !important;
 }
 
 h1.hero1 {
