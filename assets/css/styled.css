@@ -51,6 +51,7 @@ body {
 		margin-right: 5%;
 		background-color: rgb(32, 32, 36);
 		padding: 50px;
+		border-radius: 8px;
 	}
 	.tech-icons {
 		display: block;
@@ -68,7 +69,6 @@ body {
 	.workingat {
 		width: 160px;
 		margin-left: 30;
-		margin-top: -20px;
 	}
 	.worksat {
 		text-align: left;
